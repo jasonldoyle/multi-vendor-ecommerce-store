@@ -18,7 +18,7 @@ export const NavbarSidebar: React.FC<Props> = ({ items, open, onOpenChange }) =>
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
       <SheetContent
-        side="left" // use `side` instead of `size` unless your Sheet component supports `size`
+        side="left"
         className="p-0 transition-none"
       >
         <SheetHeader className="p-4 border-b">
